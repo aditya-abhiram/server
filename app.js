@@ -15,7 +15,7 @@ const clientid = "349131111223-051qe5l8u963f6pk1260l89qk7f0tue2.apps.googleuserc
 const clientsecret = "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";
 
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: "https://mernfront-1mo6.onrender.com",
     methods: "GET,POST,PUT,DELETE",
     credentials: true
 }));
